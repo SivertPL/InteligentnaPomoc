@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/przycisk_zolty"
+
+            android:baselineAligned="false"
+            android:text="PROGRAM STAŁEGO NADZORU"
+            android:drawableStart="@drawable/ambulancedrawable"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="93dp"
+            tools:layout_editor_absoluteY="39dp" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="@drawable/przycisk_dziwny"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:text="zadzwoń"
+            android:drawableEnd="@drawable/phoneicondrawable"
+            tools:layout_editor_absoluteX="93dp"
+            tools:layout_editor_absoluteY="195dp" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/przycisk_szary"
+            android:onClick="sendMessage"
+            android:text="POWIADOM INNE SŁUŻBY"
+            android:drawableStart="@drawable/alarmdrawable"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="94dp"
+            tools:layout_editor_absoluteY="352dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

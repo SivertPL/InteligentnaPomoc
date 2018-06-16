@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:background="@drawable/przycisk_szary"
+            android:text="Pogotowie gazownicze" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/przycisk_ciemnoszary"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:text="Pogotowie energetyczne" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="match_parent"
+            android:background="@drawable/przycisk_szary"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:text="Straż miejska" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="match_parent"
+            android:textSize="30sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/przycisk_ciemnoszary"
+            android:text="Pogotowie wodno-kanalizacyjne" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="30sp"
+            android:background="@drawable/przycisk_szary"
+            android:layout_weight="1"
+            android:text="Pogotowie ciepłownicze" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/przycisk_ciemnoszary"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:text="Powrót"
+            android:onClick="sendMessage"
+            tools:layout_editor_absoluteX="266dp"
+            tools:layout_editor_absoluteY="30dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
