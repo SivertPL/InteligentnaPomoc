@@ -4,7 +4,7 @@
 
 Nie zajelismy niestety zadnego miejsca, ale kod udostepniam dla potomnych.
 
-Autor kodu: Patryk (SivertPL)  [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+Autor kodu: Patryk (SivertPL) 
 
 Nie refactorowane bo nie ma czasu :]
 
@@ -13,3 +13,4 @@ Pozdro od #team35
 - Krzysztof
 - Patryk 
 
+Widzimy się za rok!
